@@ -1,8 +1,8 @@
 使用方法：
 
 ## 初始
-1. 打开终端 Terminal
-2. 输入 `cd Document/syt-blog`
+1. 打开终端 Terminal  
+2. 输入 `cd Document/syt-blog`  
 
 ## 新建文件
 
@@ -32,8 +32,12 @@
 
 1. 在终端输入
 
-`git add .` 这句是新增改动
-`git commit -m "update: upload articles"` 这句是注释；
-`git push` 这句是将文字内容推送到 github 上。
+`hexo clean`
+
+2. 输入以下命令并部署：  
+
+`hexo d`
+
+hexo 会自动部署到 github，不需要设置其他的。
 
 这就完成了所有工作。
